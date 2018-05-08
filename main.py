@@ -230,12 +230,14 @@ def main():
 
                 end_screen_f("death")
 
-        if level == 4:
-            if not enemies[0].alive:
-                if not end_bool:
-                    end_screen_f("end")
-                end_bool = True
-
+        try:
+            if level == 4:
+                if not enemies[0].alive:
+                    if not end_bool:
+                        end_screen_f("end")
+                    end_bool = True
+        except IndexError:
+            pass
 
     game_canvas.after(25, main)
 
@@ -393,7 +395,9 @@ def create_map(level_data):
 
 
 def create_shop():
-    global shop, level, shop_items, shop_bg, shop_bg_i, shop_coin, shop_coin_text
+    global shop, level, shop_items, shop_bg, shop_bg_i, shop_coin, shop_coin_text, enemies
+
+    enemies = list()
 
     shop_bg_i = tkinter.PhotoImage(file = "zdroje/images/inventory/shop.gif")
 
