@@ -1,0 +1,23 @@
+{
+  "level" : {
+    "level": 3 ,
+     "stage": 4 ,
+     "max_height": 2,
+     "platforms": [
+      [0, -100, 1380],
+      [1, 0, 600],
+      [1, 800, 1100],
+      [2, 700, 1000]
+     ] ,
+     "obstacles": [
+       [400, 420, 600, 600, [0, 180]]
+     ],
+     "enemies_count": 1 ,
+     "enemy_positions" : [
+       [0, 200, 5, "skeleton"],
+       [0, 950, 4, "skeleton"],
+       [1, 1000, 10, "skeleton"],
+       [2, 900, 8, "skeleton"]
+     ]
+  }
+}

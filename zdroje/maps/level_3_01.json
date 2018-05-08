@@ -1,0 +1,21 @@
+{
+  "level" : {
+    "level": 3 ,
+     "stage": 1 ,
+     "max_height": 2,
+     "platforms": [
+      [0, -100, 1380],
+      [1, 100, 600],
+      [1, 750, 950],
+      [2, 300, 1000]
+     ] ,
+     "obstacles": [],
+     "enemies_count": 1 ,
+     "enemy_positions" : [
+       [0, 300, 5, "goblin"],
+       [1, 350, 8, "goblin"],
+       [2, 550, 1, "skeleton"],
+       [0, 900, 10, "skeleton"]
+     ]
+  }
+}

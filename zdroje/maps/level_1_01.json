@@ -1,0 +1,17 @@
+{
+  "level" : {
+    "level": 1 ,
+     "stage": 1 ,
+     "max_height": 1,
+     "platforms": [
+      [0, -100, 1380],
+      [1, 500, 1000]
+    ] ,
+    "obstacles": [],
+     "enemies_count": 2 ,
+     "enemy_positions" : [
+      [0, 500, 1, "wolf"],
+      [1, 600, 2, "wolf"]
+    ]
+  }
+}

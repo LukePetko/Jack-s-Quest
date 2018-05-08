@@ -1,0 +1,17 @@
+{
+  "level" : {
+    "level": 4 ,
+     "stage": 1 ,
+     "max_height": 1 ,
+     "platforms": [
+       [0, -100, 1380]
+       ] ,
+     "obstacles": [
+       [1200, 0, 1280, 600, [0, 400]]
+     ],
+     "enemies_count": 1 ,
+     "enemy_positions" : [
+       [0, 900, 1, "dragon"]
+     ]
+  }
+}

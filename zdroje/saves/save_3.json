@@ -1,0 +1,22 @@
+{
+  "level_info": {
+    "level": 1,
+    "stage": 1
+  },
+  "parameters": {
+    "start_x": 10,
+    "start_y": 480,
+    "start_height": 0,
+    "base_health": 30,
+    "base_speed": 25,
+    "hp": 30,
+    "armor": null,
+    "coins": 0,
+
+
+    "equiped_weapon": "iron_sword",
+    "equiped_armor": "leather_armor"
+  },
+  "armors" : ["leather_armor"],
+  "weapons": ["iron_sword"]
+}
